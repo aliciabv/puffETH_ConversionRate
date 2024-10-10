@@ -1,0 +1,11 @@
+# Service
+/Service/venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# General files
+.DS_Store
