@@ -1,0 +1,1685 @@
+[
+    {
+      "name": "DOMAIN_SEPARATOR",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "internalType": "bytes32",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "PUFFER_ORACLE",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "UPGRADE_INTERFACE_VERSION",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "string",
+          "internalType": "string",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "asset",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "authority",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "decimals",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8",
+          "internalType": "uint8",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "pure"
+    },
+    {
+      "name": "eip712Domain",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "fields",
+          "type": "bytes1",
+          "internalType": "bytes1",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "internalType": "string",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "version",
+          "type": "string",
+          "internalType": "string",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "chainId",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "verifyingContract",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "salt",
+          "type": "bytes32",
+          "internalType": "bytes32",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "extensions",
+          "type": "uint256[]",
+          "internalType": "uint256[]",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "getELBackingEthAmount",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "ethAmount",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "getExitFeeBasisPoints",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "getPendingLidoETHAmount",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "getRemainingAssetsDailyWithdrawalLimit",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "isConsumingScheduledOp",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes4",
+          "internalType": "bytes4",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "name",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "string",
+          "internalType": "string",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "proxiableUUID",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32",
+          "internalType": "bytes32",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "symbol",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "string",
+          "internalType": "string",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "totalAssets",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "totalSupply",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "allowance",
+      "inputs": [
+        {
+          "name": "owner",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "spender",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "balanceOf",
+      "inputs": [
+        {
+          "name": "account",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "convertToAssets",
+      "inputs": [
+        {
+          "name": "shares",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "convertToShares",
+      "inputs": [
+        {
+          "name": "assets",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "convertToSharesUp",
+      "inputs": [
+        {
+          "name": "assets",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "maxDeposit",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "maxMint",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "maxRedeem",
+      "inputs": [
+        {
+          "name": "owner",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "maxShares",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "maxWithdraw",
+      "inputs": [
+        {
+          "name": "owner",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "maxAssets",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "nonces",
+      "inputs": [
+        {
+          "name": "owner",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "previewDeposit",
+      "inputs": [
+        {
+          "name": "assets",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "previewMint",
+      "inputs": [
+        {
+          "name": "shares",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "previewRedeem",
+      "inputs": [
+        {
+          "name": "shares",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "previewWithdraw",
+      "inputs": [
+        {
+          "name": "assets",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "view"
+    },
+    {
+      "name": "approve",
+      "inputs": [
+        {
+          "name": "spender",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "value",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "internalType": "bool",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "burn",
+      "inputs": [
+        {
+          "name": "shares",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "claimWithdrawalFromEigenLayer",
+      "inputs": [
+        {
+          "name": "queuedWithdrawal",
+          "type": "tuple",
+          "internalType": "struct IEigenLayerQueuedWithdrawal",
+          "components": [
+            {
+              "name": "strategies",
+              "type": "address[]",
+              "internalType": "address[]",
+              "components": [],
+              "indexed": false
+            },
+            {
+              "name": "shares",
+              "type": "uint256[]",
+              "internalType": "uint256[]",
+              "components": [],
+              "indexed": false
+            },
+            {
+              "name": "depositor",
+              "type": "address",
+              "internalType": "address",
+              "components": [],
+              "indexed": false
+            },
+            {
+              "name": "withdrawerAndNonce",
+              "type": "tuple",
+              "internalType": "struct IEigenLayerWithdrawerAndNonce",
+              "components": [
+                {
+                  "name": "withdrawer",
+                  "type": "address",
+                  "internalType": "address",
+                  "components": [],
+                  "indexed": false
+                },
+                {
+                  "name": "nonce",
+                  "type": "uint96",
+                  "internalType": "uint96",
+                  "components": [],
+                  "indexed": false
+                }
+              ],
+              "indexed": false
+            },
+            {
+              "name": "withdrawalStartBlock",
+              "type": "uint32",
+              "internalType": "uint32",
+              "components": [],
+              "indexed": false
+            },
+            {
+              "name": "delegatedAddress",
+              "type": "address",
+              "internalType": "address",
+              "components": [],
+              "indexed": false
+            }
+          ],
+          "indexed": false
+        },
+        {
+          "name": "tokens",
+          "type": "address[]",
+          "internalType": "address[]",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "middlewareTimesIndex",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "claimWithdrawalFromEigenLayerM2",
+      "inputs": [
+        {
+          "name": "queuedWithdrawal",
+          "type": "tuple",
+          "internalType": "struct IEigenLayerQueuedWithdrawal",
+          "components": [
+            {
+              "name": "strategies",
+              "type": "address[]",
+              "internalType": "address[]",
+              "components": [],
+              "indexed": false
+            },
+            {
+              "name": "shares",
+              "type": "uint256[]",
+              "internalType": "uint256[]",
+              "components": [],
+              "indexed": false
+            },
+            {
+              "name": "depositor",
+              "type": "address",
+              "internalType": "address",
+              "components": [],
+              "indexed": false
+            },
+            {
+              "name": "withdrawerAndNonce",
+              "type": "tuple",
+              "internalType": "struct IEigenLayerWithdrawerAndNonce",
+              "components": [
+                {
+                  "name": "withdrawer",
+                  "type": "address",
+                  "internalType": "address",
+                  "components": [],
+                  "indexed": false
+                },
+                {
+                  "name": "nonce",
+                  "type": "uint96",
+                  "internalType": "uint96",
+                  "components": [],
+                  "indexed": false
+                }
+              ],
+              "indexed": false
+            },
+            {
+              "name": "withdrawalStartBlock",
+              "type": "uint32",
+              "internalType": "uint32",
+              "components": [],
+              "indexed": false
+            },
+            {
+              "name": "delegatedAddress",
+              "type": "address",
+              "internalType": "address",
+              "components": [],
+              "indexed": false
+            }
+          ],
+          "indexed": false
+        },
+        {
+          "name": "tokens",
+          "type": "address[]",
+          "internalType": "address[]",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "middlewareTimesIndex",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "nonce",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "claimWithdrawalsFromLido",
+      "inputs": [
+        {
+          "name": "requestIds",
+          "type": "uint256[]",
+          "internalType": "uint256[]",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "deposit",
+      "inputs": [
+        {
+          "name": "assets",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "receiver",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "depositETH",
+      "inputs": [
+        {
+          "name": "receiver",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "payable"
+    },
+    {
+      "name": "depositStETH",
+      "inputs": [
+        {
+          "name": "stETHSharesAmount",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "receiver",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "depositToEigenLayer",
+      "inputs": [
+        {
+          "name": "amount",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "initialize",
+      "inputs": [],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "initialize",
+      "inputs": [
+        {
+          "name": "accessManager",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "initiateETHWithdrawalsFromLido",
+      "inputs": [
+        {
+          "name": "amounts",
+          "type": "uint256[]",
+          "internalType": "uint256[]",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "requestIds",
+          "type": "uint256[]",
+          "internalType": "uint256[]",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "initiateStETHWithdrawalFromEigenLayer",
+      "inputs": [
+        {
+          "name": "sharesToWithdraw",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "mint",
+      "inputs": [
+        {
+          "name": "shares",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "receiver",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "onERC721Received",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "",
+          "type": "bytes",
+          "internalType": "bytes",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes4",
+          "internalType": "bytes4",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "permit",
+      "inputs": [
+        {
+          "name": "owner",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "spender",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "value",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "deadline",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "v",
+          "type": "uint8",
+          "internalType": "uint8",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "r",
+          "type": "bytes32",
+          "internalType": "bytes32",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "s",
+          "type": "bytes32",
+          "internalType": "bytes32",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "redeem",
+      "inputs": [
+        {
+          "name": "shares",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "receiver",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "owner",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "setAuthority",
+      "inputs": [
+        {
+          "name": "newAuthority",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "setDailyWithdrawalLimit",
+      "inputs": [
+        {
+          "name": "newLimit",
+          "type": "uint96",
+          "internalType": "uint96",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "setExitFeeBasisPoints",
+      "inputs": [
+        {
+          "name": "newExitFeeBasisPoints",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "transfer",
+      "inputs": [
+        {
+          "name": "to",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "value",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "internalType": "bool",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "transferETH",
+      "inputs": [
+        {
+          "name": "to",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "ethAmount",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "transferFrom",
+      "inputs": [
+        {
+          "name": "from",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "to",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "value",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool",
+          "internalType": "bool",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "upgradeToAndCall",
+      "inputs": [
+        {
+          "name": "newImplementation",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "data",
+          "type": "bytes",
+          "internalType": "bytes",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [],
+      "type": "function",
+      "stateMutability": "payable"
+    },
+    {
+      "name": "withdraw",
+      "inputs": [
+        {
+          "name": "assets",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "receiver",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "owner",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "function",
+      "stateMutability": "nonpayable"
+    },
+    {
+      "name": "Approval",
+      "inputs": [
+        {
+          "name": "owner",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": true
+        },
+        {
+          "name": "spender",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": true
+        },
+        {
+          "name": "value",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "AssetsWithdrawnToday",
+      "inputs": [
+        {
+          "name": "withdrawalAmount",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "AuthorityUpdated",
+      "inputs": [
+        {
+          "name": "authority",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "ClaimedWithdrawals",
+      "inputs": [
+        {
+          "name": "requestIds",
+          "type": "uint256[]",
+          "internalType": "uint256[]",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "DailyWithdrawalLimitReset",
+      "inputs": [],
+      "type": "event"
+    },
+    {
+      "name": "DailyWithdrawalLimitSet",
+      "inputs": [
+        {
+          "name": "oldLimit",
+          "type": "uint96",
+          "internalType": "uint96",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "newLimit",
+          "type": "uint96",
+          "internalType": "uint96",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "Deposit",
+      "inputs": [
+        {
+          "name": "sender",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": true
+        },
+        {
+          "name": "owner",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": true
+        },
+        {
+          "name": "assets",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "shares",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "EIP712DomainChanged",
+      "inputs": [],
+      "type": "event"
+    },
+    {
+      "name": "ExitFeeBasisPointsSet",
+      "inputs": [
+        {
+          "name": "previousFee",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "newFee",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "Initialized",
+      "inputs": [
+        {
+          "name": "version",
+          "type": "uint64",
+          "internalType": "uint64",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "LidoWithdrawal",
+      "inputs": [
+        {
+          "name": "expectedWithdrawal",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "actualWithdrawal",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "RequestedWithdrawals",
+      "inputs": [
+        {
+          "name": "requestIds",
+          "type": "uint256[]",
+          "internalType": "uint256[]",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "Transfer",
+      "inputs": [
+        {
+          "name": "from",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": true
+        },
+        {
+          "name": "to",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": true
+        },
+        {
+          "name": "value",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "TransferredETH",
+      "inputs": [
+        {
+          "name": "to",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": true
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "Upgraded",
+      "inputs": [
+        {
+          "name": "implementation",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": true
+        }
+      ],
+      "type": "event"
+    },
+    {
+      "name": "Withdraw",
+      "inputs": [
+        {
+          "name": "sender",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": true
+        },
+        {
+          "name": "receiver",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": true
+        },
+        {
+          "name": "owner",
+          "type": "address",
+          "internalType": "address",
+          "components": [],
+          "indexed": true
+        },
+        {
+          "name": "assets",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        },
+        {
+          "name": "shares",
+          "type": "uint256",
+          "internalType": "uint256",
+          "components": [],
+          "indexed": false
+        }
+      ],
+      "type": "event"
+    }
+  ]
