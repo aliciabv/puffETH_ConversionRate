@@ -24,7 +24,7 @@ def get_conversion_rate_statistics(
 ):
     statistics = fetch_conversion_rate_statistics(db, start_time, end_time)
     return {
-        "min_rate": statistics.min_rate,
-        "max_rate": statistics.max_rate,
-        "mean_rate": statistics.mean_rate
+        "min_rate": round(statistics.min_rate, 4),
+        "max_rate": round(statistics.max_rate, 4),
+        "mean_rate": round(statistics.mean_rate, 4),
     }
