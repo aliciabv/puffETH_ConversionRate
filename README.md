@@ -32,7 +32,17 @@ Create a `.env` file inside the `configuration` directory with the following con
     ETHEREUM_RPC_URL=<YOUR ETHEREUM RPC URL>
 To get the ETHEREUM_RPC_URL you can create a free account in https://www.infura.io, create a new API key for Ethereum network and use the HTTPS url provided as the ETHEREUM_RPC_URL. 
 
-5. **Running the application**
+5. **Run Redis**
+Install Redis on your local:
+    ```bash
+    brew install redis
+
+Start Redis message broker:
+    ```bash
+    brew services start redis
+
+
+6. **Running the application**
 Open 3 different terminals inside the `service` directory and run the following commands (one per terminal):
     ```bash 
     uvicorn main:app --reload
