@@ -33,21 +33,27 @@ Create a `.env` file inside the `configuration` directory with the following con
 To get the ETHEREUM_RPC_URL you can create a free account in https://www.infura.io, create a new API key for Ethereum network and use the HTTPS url provided as the ETHEREUM_RPC_URL. 
 
 5. **Run Redis**
-Install Redis on your local:
+Install and start Redis on your local:
+Mac:
     ```bash
     brew install redis
-
-Start Redis message broker:
-    ```bash
     brew services start redis
+Linux (Ubuntu):
+    ```bash
+    sudo apt update
+    sudo apt install redis-server
+    sudo systemctl start redis
 
 
 6. **Running the application**
 Open 3 different terminals inside the `service` directory and run the following commands (one per terminal):
+
     ```bash 
     uvicorn main:app --reload
     celery -A tasks.celery.celery_app worker --loglevel=info -E
     celery -A tasks.celery.celery_app beat --loglevel=info
+Linux:
+
 
 Your service is now running!
 
