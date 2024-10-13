@@ -1,0 +1,37 @@
+/* App.css */
+
+.header {
+    background-color: #09103d;
+    width: 100%;
+    padding: 20px 0; /* Added more padding to make it spacious */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Optional: a subtle shadow for header depth */
+  }
+  
+  .header-grid {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px; /* Limiting max width for better UX on large screens */
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+  
+  .header-title {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px; /* Limits the width for larger screens */
+    margin-top: 40px;
+  }
+  
+  .chart-container {
+    margin-top: 40px; /* Top margin for the chart content */
+  }
+  

@@ -1,0 +1,9 @@
+.popover-content {
+    padding: 16px; /* Padding for the popover */
+    width: 200px; /* Fixed width for the popover */
+  }
+  
+  .popover-link {
+    color: #1E88E5; /* Link color */
+  }
+  

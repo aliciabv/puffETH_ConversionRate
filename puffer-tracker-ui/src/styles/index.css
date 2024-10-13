@@ -1,0 +1,5 @@
+/* Background Gradient */
+body {
+  background: linear-gradient(180deg, #1433B9, #086ef4);
+  color: #FFFFFF;
+}

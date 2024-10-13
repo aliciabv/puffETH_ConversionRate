@@ -1,0 +1,26 @@
+/* ConversionRateChart.css */
+
+.container {
+    background-color: #09103d;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+  }
+  
+  .title-container {
+    margin-bottom: 40px;
+    display: flex;
+  }
+  
+  .title {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .grid-container {
+    margin-bottom: 20px;
+  }
+  

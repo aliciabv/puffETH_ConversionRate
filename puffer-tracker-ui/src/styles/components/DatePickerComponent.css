@@ -1,0 +1,15 @@
+.date-picker-wrapper {
+    width: 100%; /* Ensures the wrapper takes full width */
+  }
+  
+  .date-picker-label {
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  
+  .custom-text-field {
+    background: #165BB8;
+    border-radius: 10px;
+    width: 100%; /* Ensures the TextField takes full width */
+  }
+  
