@@ -13,8 +13,8 @@ This is a showcase project, for that reason, database has been set to work local
 ## Backend Servie
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>/service
+   git clone https://github.com/aliciabv/puffETH_ConversionRate.git
+   cd puffETH_ConversionRate/service
 2. **Set up the python virtual environment**
     ```bash
     python -m venv venv
