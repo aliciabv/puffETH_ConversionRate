@@ -3,6 +3,8 @@
 ## Overview
 This project tracks the conversion rates of the PufferVaultV2 contract on Ethereum and stores the data in a SQLite database.
 
+This is a showcase project, for that reason, database has been set to work locally and data will only be available if the service and Celeris are started a bit in advanced. Also, limited amount of data will be available for display which will limit the timespan that can be set on the dashboard.  
+
 ## Prerequisites
 - Python 3.8 or higher
 - SQLite
